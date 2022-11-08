@@ -5,4 +5,5 @@ Set password for new app
 Search by Email
 Search by App Name
 Update the password for a new app
+delete the data of an already existing app
 Exit the application
