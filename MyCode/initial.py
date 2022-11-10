@@ -125,21 +125,19 @@ def delete():
     conn.commit()
     pr_green("Record Deleted Sucessfully...")
     #print("\033[92m {}\033[00m" .format("Delete me hi gdbd hai!"))
-        
- 
-choice = menu()
+    
 
-while choice != 'Q':
+while True:
     if choice == '1':
         create()
-    if choice == '2':
+    elif choice == '2':
         find_accounts()
-    if choice == '3':
+    elif choice == '3':
         find()
-    if choice == '4':
+    elif choice == '4':
         update()
-    if choice == '5':
+    elif choice == '5':
         delete()
-    else:
-        choice = menu()
-exit()
+    elif choice == 'Q':
+        exit(0)
+    choice = menu()
