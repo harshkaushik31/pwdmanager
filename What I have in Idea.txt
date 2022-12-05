@@ -1,0 +1,8 @@
+What should be in the app and how can I do it
+
+1. Menu based python as frontend and save the password after hashing and show after unhasing
+Set password for new app
+Search by Email
+Search by App Name
+Update the password for a new app
+Exit the application
